@@ -1,0 +1,34 @@
+{
+  "name": "discordbot",
+  "version": "0.0.1",
+  "description": "test discord bot",
+  "main": "main.js",
+  "scripts": {
+    "lint": "eslint . --fix",
+    "dev": "nodemon --exec babel-node main.js",
+    "start": "babel-node main.js"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "endOfLine": "lf",
+    "semi": true,
+    "trailingComma": "none"
+  },
+  "author": "Taylor Austin <tbaustin1992@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "discord.js": "^13.2.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.13",
+    "prettier": "^2.4.1"
+  }
+}
