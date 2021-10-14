@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "test discord bot",
   "main": "main.js",
+  "engines": {
+    "node": ">=16.6.0",
+    "npm": ">=7.20.3"
+  },
   "scripts": {
     "lint": "eslint . --fix",
     "dev": "nodemon --exec babel-node main.js",
