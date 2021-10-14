@@ -17,6 +17,7 @@
   "author": "Taylor Austin <tbaustin1992@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "@babel/preset-env": "^7.15.8",
     "axios": "^0.23.0",
     "babel-cli": "^6.26.0",
     "discord.js": "^13.2.0",
@@ -25,7 +26,6 @@
   "devDependencies": {
     "@babel/core": "^7.15.8",
     "@babel/node": "^7.15.8",
-    "@babel/preset-env": "^7.15.8",
     "eslint": "^8.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
