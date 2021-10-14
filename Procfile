@@ -1,1 +1,1 @@
-worker: babel-node main.js
+worker: yarn start
